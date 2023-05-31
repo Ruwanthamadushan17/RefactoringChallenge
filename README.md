@@ -15,7 +15,7 @@ Go to the RefactoringChallenge.Api forlder and run 'dotnet run'.
 
 Use 'https://localhost:5001/swagger/index.html' test the end points.
 
-###When using visual studio 
+### When using visual studio 
 
 Double click the .sln will open the solution in Visual Studio.
 
@@ -25,7 +25,7 @@ Click the play icon at the top of visual studio to run the application.
 
 Use 'https://localhost:5001/swagger/index.html' test the end points.
 
-##Improvements done.
+## Improvements done.
 
 Please note I have used inmemory db due to resource limitations in my laptop.
 
@@ -54,7 +54,7 @@ Made the api call async to make it more scalable.
 
 Added unit tests.
 
-##Further improvements that can be done.
+## Further improvements that can be done.
 
 Add logging.
 Add caching.
@@ -63,7 +63,7 @@ Use 2 objects to do the mapping with mapster in order create and add order detai
 Use repository pattern(Have not used repository patteren since there is only one service).
 Dockerizing(Did not do due to resource limitations in my laptop)
 
-##Changes can be done in production
+## Changes can be done in production
 
 Read secrets from secure offering such as keyvault
 Use api versioning
