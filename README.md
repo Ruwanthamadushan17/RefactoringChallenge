@@ -29,50 +29,50 @@ Use 'https://localhost:5001/swagger/index.html' test the end points.
 
 Please note I have used inmemory db due to resource limitations in my laptop.
 
-Seperated the business logic, models and Entities to their own projects.
-Which makes the code more clean and responsibility wise seperated.
+- Seperated the business logic, models and Entities to their own projects.
+  Which makes the code more clean and responsibility wise seperated.
 
-Added a global exception handler so no need to repeat try catch blocks.
+- Added a global exception handler so no need to repeat try catch blocks.
 
-Used mapster to map instead of manual mapping.
+- Used mapster to map instead of manual mapping.
 
-Removed redundant Validation Attributes and used in fluent api validations(improved consistancy).
+- Removed redundant Validation Attributes and used in fluent api validations(improved consistancy).
 
-Added model validations to return early in case of a bad request.
+- Added model validations to return early in case of a bad request.
 
-Removed unnesassary indexes since they slow the create and update operations.
+- Removed unnesassary indexes since they slow the create and update operations.
 
-Used models to pass parameters instead of passing multiple parameters which make it more extensible when change comes.
+- Used models to pass parameters instead of passing multiple parameters which make it more extensible when change comes.
 
-Change the HTTP attributes to PATCH and DELETE where appropriate.
+- Change the HTTP attributes to PATCH and DELETE where appropriate.
 
-Read configurations from config file instead of hardcoding.
+- Read configurations from config file instead of hardcoding.
 
-Read only the required data from the db instead of reading all the data.
+- Read only the required data from the db instead of reading all the data.
 
-Made the api call async to make it more scalable.
+- Made the api call async to make it more scalable.
 
-Added unit tests.
+- Added unit tests.
 
 ## Further improvements that can be done.
 
-Add logging.
+- Add logging.
 
-Add caching.
+- Add caching.
 
-Database normalization.
+- Database normalization.
 
-Use 2 objects to do the mapping with mapster in order create and add order details.
+- Use 2 objects to do the mapping with mapster in order create and add order details.
 
-Use repository pattern(Have not used repository patteren since there is only one service).
+- Use repository pattern(Have not used repository patteren since there is only one service).
 
-Dockerizing(Did not do due to resource limitations in my laptop)
+- Dockerizing(Did not do due to resource limitations in my laptop)
 
 ## Changes can be done in production
 
-Read secrets from secure offering such as keyvault.
+- Read secrets from secure offering such as keyvault.
 
-Use api versioning.
+- Use api versioning.
 
-Change the log level to information.
+- Change the log level to information.
 
