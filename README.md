@@ -7,7 +7,7 @@ Clone the repository.
 
 Use either CMD or visual studio to run the application.
 
-###When using CMD
+#### When using CMD
 
 Open a command propmt in folder where the .sln is in and run 'dotnet restore'.
 
@@ -15,7 +15,7 @@ Go to the RefactoringChallenge.Api forlder and run 'dotnet run'.
 
 Use 'https://localhost:5001/swagger/index.html' test the end points.
 
-### When using visual studio 
+#### When using visual studio 
 
 Double click the .sln will open the solution in Visual Studio.
 
