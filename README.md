@@ -57,15 +57,22 @@ Added unit tests.
 ## Further improvements that can be done.
 
 Add logging.
+
 Add caching.
+
 Database normalization.
+
 Use 2 objects to do the mapping with mapster in order create and add order details.
+
 Use repository pattern(Have not used repository patteren since there is only one service).
+
 Dockerizing(Did not do due to resource limitations in my laptop)
 
 ## Changes can be done in production
 
-Read secrets from secure offering such as keyvault
-Use api versioning
+Read secrets from secure offering such as keyvault.
+
+Use api versioning.
+
 Change the log level to information.
 
